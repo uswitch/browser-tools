@@ -8,7 +8,7 @@ favelet: grid overlay
 
 Displays the 12 column grid used by the page, overlaid ontop of the content (content is still clickable through the grid in webkit). Also shows the type and version of stylesheet running (ie, because the grid changed in 4.0.1 onwards). Doesn't work in many comms pages as they use a different stylesheet system.
 
-[Click to view the bookmarklet/favelet and drag it to your bookmark bar](https://raw.github.com/uswitch/browser-tools/master/favelet-grid/index.html)
+[Click to view the project page and drag > "uSwitch grid" < link to your bookmark bar](http://uswitch.github.io/browser-tools/index.html)
 
 
 
