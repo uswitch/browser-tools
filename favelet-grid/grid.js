@@ -36,10 +36,10 @@ function uSwitchGridInit () {
   styleSheets.each(function(index,value){
     var that = $(this);
     var thatRaw = that[0];
-    if (thatRaw.href.indexOf('uswitch-style')) {
+    if (thatRaw.href.indexOf('uswitch-style') >= 0) {
       uSwitchGridObj.style = 'uswitch-style';
       uSwitchGridObj.version = checkStyleVersion(thatRaw.href);
-    } else if(thatRaw.href.indexOf('uswitch-reset')) {
+    } else if(thatRaw.href.indexOf('uswitch-reset') >= 0) {
       uSwitchGridObj.style = 'uswitch-reset';
       uSwitchGridObj.version = checkStyleVersion(thatRaw.href);
     } else {
