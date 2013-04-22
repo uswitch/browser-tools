@@ -24,9 +24,11 @@ function uSwitchGridInit () {
 	
 	// function for figuring out what version of the stylesheet we're running
 	var checkStyleVersion = function(url) {
+  	console.log(url);
 	  var regEx = /\/v([0-9.]+)\/stylesheets/
 	  var vers = regEx.exec(url); 
-  	return vers[0];
+  	console.log(vers);
+  	return false;
 	}
 
   // check for a uswitch stylesheet
