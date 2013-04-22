@@ -42,11 +42,12 @@ function uSwitchGridInit () {
     } else if(thatRaw.href.indexOf('uswitch-reset') >= 0) {
       uSwitchGridObj.style = 'uswitch-reset';
       uSwitchGridObj.version = checkStyleVersion(thatRaw.href);
-    } else {
-      alert('This page does not appear to have a uSwitch stylesheet');
-      return;
     }
   })
+  if(!uSwitchGridObj.style) {
+    alert('This page does not appear to have a uSwitch stylesheet');
+    return;
+  }
 
 	// if we're running, use click to remove everything
 	if ( uSwitchGridObj.running == true ) {
