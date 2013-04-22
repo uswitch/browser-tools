@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header style="display:none">
         <h1>Browser-tools</h1>
         <p>Suite of favelets, chrome extensions, audits and snippets to help test and debug the uSwitch website in the browser.</p>
 
@@ -34,9 +34,11 @@
 
 <h2>favelet: grid overlay</h2>
 
-<p>Displays the 12 column grid used by the page, overlaid ontop of the content (content is still clickable through the grid in webkit). Also shows the type and version of stylesheet running (ie, because the grid changed in 4.0.1 onwards). Doesn't work in many comms pages as they use a different stylesheet system.</p>
+<p>Displays the 12 column grid used by any uSwitch page, overlaid on top of the content (content is still clickable through the grid in webkit). Also shows the type and version of stylesheet running (ie, because the grid changed in 4.0.1 onwards). <i>Doesn't work in many comms pages as they use a different stylesheet system</i>.</p>
 
-<p><a href="https://raw.github.com/uswitch/browser-tools/master/favelet-grid/index.html">Click to view the bookmarklet/favelet and drag it to your bookmark bar</a></p>
+<p><b>Drag the below link to your bookmark bar.</b></p>
+
+<p>&gt; <a href="javascript:function loadScript(scriptURL){ var scriptElem = document.createElement('SCRIPT'); scriptElem.setAttribute('language', 'JavaScript'); scriptElem.setAttribute('src', scriptURL); document.body.appendChild(scriptElem)}loadScript('https://raw.github.com/uswitch/browser-tools/master/favelet-grid/grid.js');">uSwitch grid</a> &lt;</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/uswitch">uswitch</a></p>
