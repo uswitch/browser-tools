@@ -1,0 +1,1 @@
+javascript:function loadScript(scriptURL){ var scriptElem = document.createElement('SCRIPT'); scriptElem.setAttribute('language', 'JavaScript'); scriptElem.setAttribute('src', scriptURL); document.body.appendChild(scriptElem)}loadScript('https://raw.github.com/uswitch/browser-tools/master/favelet-jquery19/jquery19.js');
