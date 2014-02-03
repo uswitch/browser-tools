@@ -25,8 +25,9 @@ function uSwitchGridInit () {
 	
 	// set up the grid
   var gridContainer = document.createElement("div");
+  gridContainer.id = 'uswitch-grid-container';
 	gridContainer.innerHTML = "\
-  <div id='uswitch-grid-container' style='position:fixed !important;left: 0 !important;top: 0 !important;z-index:999999 !important;width:100% !important;height:100% !important;margin:0 !important;padding:0 !important;pointer-events:none'>\
+  <div style='position:fixed !important;left: 0 !important;top: 0 !important;z-index:999999 !important;width:100% !important;height:100% !important;margin:0 !important;padding:0 !important;pointer-events:none'>\
     <div id='uswitch-grid-column' class='us-container' style='height:100%;'>\
       <div id='uswitch-grid-overlay' style='height:100% !important;margin:0 -15px !important;'>\
         <div class='us-col-1' style='height:100% !important;min-height:100% !important;padding:0 !important;color:#c00 !important;background:rgba(255,0,0,0.1) !important;text-align:center !important;box-sizing:border-box !important;pointer-events:none !important;'><div style='height:100% !important;margin:0 15px;padding: 20px 0;background:rgba(255,0,0,0.1) !important;'>01</div></div>\
